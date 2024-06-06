@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header,
+footer {
+    width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.top1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.container {
+    max-width: 100%;
+    /* margin: 20px auto; */
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    /* text-align: center; */
+    color: #333;
+}
+
+.prefacio {
+    /* background-color: #e2e2e2; */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+p {
+    margin: 0px 30px 10px 40px
+    
+}
+
+.orgaos {
+    /* list-style-type: none; */
+    padding: 0;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.orgaos, li {
+    margin-bottom: 2px;
+}
+
+
+
+
+
+.referencias {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 2px 0;
+    border-radius: 5px;
+}
+
+.box strong {
+    color: #fff;
+}
+
+.box.light {
+    background-color: #e0e0e0;
+}
+
+.box.strong {
+    background-color: #b0b0b0;
+}
+
+.box span {
+    flex: 1;
+}
+
+.box button {
+    padding: 8px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    /* margin-top: 30px; */
+    text-align: center;
+}
