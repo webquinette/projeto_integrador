@@ -3,7 +3,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #fff;    
+    
 }
 
 header,
@@ -16,6 +17,7 @@ header {
     color: #fff;
     padding: 10px;
     text-align: center;
+    
 }
 
 nav ul {
@@ -46,6 +48,7 @@ main {
     color: #fff;
     padding: 20px;
     text-align: center;
+    
 }
 
 
@@ -56,6 +59,8 @@ main {
     padding: 10px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   background-image: url("img/fundo.png");
+   background-size: cover;
 }
 
 h1 {
