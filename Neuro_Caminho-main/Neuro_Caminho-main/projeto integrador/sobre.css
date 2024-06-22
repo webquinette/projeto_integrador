@@ -52,20 +52,14 @@ main {
     margin-left: 80px;
 }
 
-img {
-    margin: 10px 40px 40px 50px
-}
-
-
-
 .container {
     max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
+    /*margin: 0 auto;*/
+    padding: 10px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-image: url("img/fundo.png");
-    background-size: cover;
+    background-size: cover ;
 }
 
 h1 {
@@ -90,10 +84,11 @@ hr {
     margin: 40px 0;
 }
 
-
-
-
-
+.banner-ela{
+    width: 30px;
+    height: 100%;
+    margin: auto;
+}
 
 .center-text {
     text-align: center;
