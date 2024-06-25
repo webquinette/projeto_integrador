@@ -89,44 +89,49 @@ footer {
     text-align: center;
 }
 
-.produtos{
-    margin-top: 189px;
+.equipe{
+    margin-top: 70px;
 }
 
-.titulo{
-    text-align: center;
-    font-size: 49px;
-    font-weight: normal;
-    margin-bottom: 74px;
+.coluna{
+    width: 286px;
+    border: 1px solid #003875;
+    background-color: #003875;
+    margin-left: 15px;
+    margin-block: 45px;
 }
 
 .linha{  
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     flex-wrap: wrap;
-}
-
-.coluna{
-    width: 369px;
-    border: 1px solid #000;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .coluna p{
     margin: 16px 30px 35px 30px;
 }
 
-.botao{
-    background-color: #8597F6;        
-    color: white;    
-    font-weight: bold;    
-    letter-spacing: 1px;
-    padding: 15px 60px;
-    display: block;
-    width: 150px;
-    margin: auto;
+.nome{
+    color: #fff;
+}
+
+.titulo{
     text-align: center;
-    text-decoration: none;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.texto{
+    text-align: center;
+    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 18vh;   
+    text-align: center;
 }
