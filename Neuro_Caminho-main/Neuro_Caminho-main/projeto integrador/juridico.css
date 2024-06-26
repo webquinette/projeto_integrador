@@ -3,8 +3,9 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fff;    
-    
+    background-color: #fff;
+    background-image: url("img/fundo.png");
+    background-size: cover;
 }
 
 header,
@@ -55,10 +56,9 @@ main {
     max-width: 100%;
     /* margin: 20px auto; */
     padding: 10px;
-    background-color: #fff;
+    background-color: #003875;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   background-image: url("img/fundo.png");
-   background-size: cover;
+
 }
 
 h1 {

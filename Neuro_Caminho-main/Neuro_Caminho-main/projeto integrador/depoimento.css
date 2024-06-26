@@ -4,15 +4,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("img/fundo.png");
+   background-size: cover;
 }
 
 header,
 footer {
     width: 100%;
 }
-
-
-
 
 header {
     background-color: #003875;
@@ -49,11 +48,8 @@ footer {
     max-width: 100%;
     margin: auto;
     padding: auto;
-    background-color: #fff;
+    background-color: #003875;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   background-image: url("img/fundo.png");
-   background-size: cover;
-
 }
 
 .depoimentos {
@@ -80,10 +76,8 @@ footer {
 }
 
 .texto-depoimento {
-    
     margin-left: 40px;
-    align-items: center;
-   
+    align-items: center;  
 }
 
 
@@ -105,6 +99,13 @@ footer {
     order: 3;
 }
 
+.top1 {
+    background-color: #003875;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
 
 .carrossel {
     /* Estilo do carrossel */
