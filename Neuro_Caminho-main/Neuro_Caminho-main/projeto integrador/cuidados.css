@@ -44,14 +44,6 @@ footer {
     text-align: center;
 }
 
-.container {
-    max-width: 100%;
-    margin: auto;
-    padding: auto;
-    background-color: #003875;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 .depoimentos {
     width: 90%; /* Defina a largura conforme necessário */
 }
@@ -103,7 +95,6 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
-    font-size: 40px;
 }
 
 h2{
@@ -118,5 +109,23 @@ h2{
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+.logo{
+    display: flex;
+}
+
+.linkbranco{
+    color: #fff;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 18vh;   
+    text-align: center;
 }
 

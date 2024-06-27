@@ -44,14 +44,6 @@ footer {
     text-align: center;
 }
 
-.container {
-    max-width: 100%;
-    margin: auto;
-    padding: auto;
-    background-color: #003875;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 .depoimentos {
     width: 90%; /* Defina a largura conforme necessário */
 }
@@ -107,15 +99,24 @@ footer {
     font-size: 40px;
 }
 
-.carrossel {
-    /* Estilo do carrossel */
-}
-
-.redes-sociais {
-    /* Estilo das redes sociais */
-}
-
-
 h2{
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+}
+
+.linkbranco{
+    color: #fff;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 18vh;   
     text-align: center;
 }

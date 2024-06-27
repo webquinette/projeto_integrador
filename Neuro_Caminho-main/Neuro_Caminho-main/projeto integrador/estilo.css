@@ -137,10 +137,11 @@ footer {
     text-align: center;
 }
 
-/*.redes-sociais{
-    float: left;
+.logo{
+    display: flex;
 }
 
-.rodape{
-
-}*/
+.linkbranco{
+    color: #fff;
+    text-decoration: none;
+}
