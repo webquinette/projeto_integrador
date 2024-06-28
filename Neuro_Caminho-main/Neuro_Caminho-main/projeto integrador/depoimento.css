@@ -72,7 +72,11 @@ footer {
     align-items: center; 
 }
 
-
+.texto{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
 
 .depoimentos,
 .videos,
