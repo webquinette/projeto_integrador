@@ -14,7 +14,7 @@ footer {
 }
 
 header {
-    background-color: #003875;
+    background-color: #662d91;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -38,7 +38,7 @@ nav ul li a {
 
 
 footer {
-    background-color: #003875;
+    background-color: #662d91;
     color: #fff;
     margin-top: 30px;
     text-align: center;
@@ -54,10 +54,10 @@ footer {
 }
 
 .foto {
-    width: 20%; /* Defina o tamanho da imagem conforme necessário */
+    width: 30%; /* Defina o tamanho da imagem conforme necessário */
     /* height: auto; */
-    border-radius: 50%; /* Para tornar a imagem redonda */
-    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+    border-radius: 0%; /* Para tornar a imagem redonda */
+    margin-right: 30px; /* Espaçamento entre a imagem e o texto */
 }
 
 .foto1{
@@ -68,8 +68,8 @@ footer {
 }
 
 .texto-depoimento {
-    margin-left: 40px;
-    align-items: center;  
+    margin-left: 20px;
+    align-items: center; 
 }
 
 
@@ -79,7 +79,7 @@ footer {
 .contatos, 
 .texto-depoimento {
     flex: 1;
-    padding: 20px;
+    padding: 60px;
 }
 
 
@@ -92,7 +92,7 @@ footer {
 }
 
 .top1 {
-    background-color: #003875;
+    background-color: #662d91;
     color: #fff;
     padding: 20px;
     text-align: center;

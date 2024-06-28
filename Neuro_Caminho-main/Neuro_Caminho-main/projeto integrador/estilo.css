@@ -14,7 +14,7 @@ footer {
 }
 
 header {
-    background-color: #003875;
+    background-color: #662d91;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -76,14 +76,14 @@ main {
 }
 
 .top1 {
-    background-color: #003875;
+    background-color: #662d91;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
 footer {
-    background-color: #003875;
+    background-color: #662d91;
     color: #fff;
     margin-top: 30px;
     text-align: center;
@@ -95,8 +95,8 @@ footer {
 
 .coluna{
     width: 286px;
-    border: 1px solid #003875;
-    background-color: #003875;
+    border: 1px solid #662d91;
+    background-color: #662d91;
     margin-left: 15px;
     margin-block: 45px;
 }
