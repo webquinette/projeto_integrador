@@ -128,3 +128,13 @@ h2{
 .titulo{
     text-align: center;
 }
+
+.galeria-de-foto{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.galeria{
+    text-align: center;
+}
